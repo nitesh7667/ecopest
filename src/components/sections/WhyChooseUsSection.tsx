@@ -35,23 +35,23 @@ export default function WhyChooseUsSection() {
           <div className="grid sm:grid-cols-2 gap-6">
             <motion.div variants={fadeInUp} className="bg-white/10 p-6 rounded-2xl backdrop-blur border border-white/10 hover:bg-white/20 transition-colors">
               <Leaf className="h-8 w-8 text-pest-accent mb-4" />
-              <h4 className="font-bold text-xl mb-2">Eco-Friendly</h4>
-              <p className="text-sm text-pest-light/70">100% safe chemicals that are harsh on pests, soft on earth.</p>
+              <h3 className="font-bold text-xl mb-2">Eco-Friendly</h3>
+              <p className="text-sm text-pest-light/90">100% safe chemicals that are harsh on pests, soft on earth.</p>
             </motion.div>
             <motion.div variants={fadeInUp} className="bg-white/10 p-6 rounded-2xl backdrop-blur border border-white/10 hover:bg-white/20 transition-colors">
               <ShieldCheck className="h-8 w-8 text-pest-accent mb-4" />
-              <h4 className="font-bold text-xl mb-2">Family Safe</h4>
-              <p className="text-sm text-pest-light/70">Completely secure for your children and pets across the house.</p>
+              <h3 className="font-bold text-xl mb-2">Family Safe</h3>
+              <p className="text-sm text-pest-light/90">Completely secure for your children and pets across the house.</p>
             </motion.div>
             <motion.div variants={fadeInUp} className="bg-white/10 p-6 rounded-2xl backdrop-blur border border-white/10 hover:bg-white/20 transition-colors">
               <Clock className="h-8 w-8 text-pest-accent mb-4" />
-              <h4 className="font-bold text-xl mb-2">Quick Response</h4>
-              <p className="text-sm text-pest-light/70">Same day reliable service to handle urgent infestations.</p>
+              <h3 className="font-bold text-xl mb-2">Quick Response</h3>
+              <p className="text-sm text-pest-light/90">Same day reliable service to handle urgent infestations.</p>
             </motion.div>
             <motion.div variants={fadeInUp} className="bg-white/10 p-6 rounded-2xl backdrop-blur border border-white/10 hover:bg-white/20 transition-colors">
               <DollarSign className="h-8 w-8 text-pest-accent mb-4" />
-              <h4 className="font-bold text-xl mb-2">Affordable</h4>
-              <p className="text-sm text-pest-light/70">Premium service quality that fits well within your budget.</p>
+              <h3 className="font-bold text-xl mb-2">Affordable</h3>
+              <p className="text-sm text-pest-light/90">Premium service quality that fits well within your budget.</p>
             </motion.div>
           </div>
         </div>

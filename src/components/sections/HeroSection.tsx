@@ -32,7 +32,7 @@ export default function HeroSection() {
           </h1>
 
           {/* Description */}
-          <p className="text-lg text-gray-600 max-w-xl">
+          <p className="text-lg text-gray-700 max-w-xl">
             Protect your home and business with certified pest control solutions.
             Fast, reliable, and completely safe for your family and environment.
           </p>
@@ -87,6 +87,8 @@ export default function HeroSection() {
             <img
               src="/illustration1.png"
               alt="Pest Control Service"
+              width="600"
+              height="600"
               className="relative z-10   w-full max-w-sm md:max-w-xl object-cover"
             />
           </div>

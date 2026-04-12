@@ -27,7 +27,7 @@ export default function ContactSection() {
           {/* Form Side */}
           <motion.div variants={fadeInUp} className="p-10 lg:p-16 lg:w-1/2 text-white">
             <h2 className="text-3xl font-extrabold mb-2">Request an Inspection</h2>
-            <p className="text-pest-light/70 mb-10">Fill out this quick form and we will call you back immediately.</p>
+            <p className="text-pest-light/90 mb-10">Fill out this quick form and we will call you back immediately.</p>
             
             <form className="space-y-6">
               <div>
@@ -40,8 +40,8 @@ export default function ContactSection() {
                   <input type="tel" className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-pest-accent text-white placeholder-white/40" placeholder="9876543210" />
                 </div>
                 <div>
-                  <label className="text-sm font-semibold text-pest-light/90 mb-2 block">Service</label>
-                  <select className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-pest-accent text-white/80 appearance-none">
+                  <label htmlFor="service-select" className="text-sm font-semibold text-pest-light/90 mb-2 block">Service</label>
+                  <select id="service-select" className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-pest-accent text-white/80 appearance-none">
                     <option className="text-foreground">General Pest</option>
                     <option className="text-foreground">Termites</option>
                     <option className="text-foreground">Rodents</option>

@@ -9,14 +9,14 @@ export default function Footer() {
           <div className="flex gap-2 items-center mb-4">
             <span className="font-extrabold text-2xl text-white">Punjab Ecopest</span>
           </div>
-          <p className="text-sm text-pest-light/70 max-w-sm mb-6 leading-relaxed">
+          <p className="text-sm text-pest-light/90 max-w-sm mb-6 leading-relaxed">
             Professional & eco-friendly pest control services serving Amritsar. Your safety and peace of mind are our top priorities.
           </p>
         </div>
         
         <div>
-          <h3 className="font-bold mb-6 text-white uppercase tracking-wider text-sm">Our Services</h3>
-          <ul className="space-y-3 text-sm text-pest-light/80">
+          <h2 className="font-bold mb-6 text-white uppercase tracking-wider text-sm">Our Services</h2>
+          <ul className="space-y-3 text-sm text-pest-light/90">
             <li><Link href="#services" className="hover:text-pest-accent transition-colors">Termite Treatment</Link></li>
             <li><Link href="#services" className="hover:text-pest-accent transition-colors">Rodent Control</Link></li>
             <li><Link href="#services" className="hover:text-pest-accent transition-colors">General Pest Control</Link></li>
@@ -26,8 +26,8 @@ export default function Footer() {
         </div>
         
         <div>
-          <h3 className="font-bold mb-6 text-white uppercase tracking-wider text-sm">Contact Us</h3>
-          <ul className="space-y-4 text-sm text-pest-light/80">
+          <h2 className="font-bold mb-6 text-white uppercase tracking-wider text-sm">Contact Us</h2>
+          <ul className="space-y-4 text-sm text-pest-light/90">
             <li className="flex items-start gap-3">
               <MapPin className="h-5 w-5 text-pest-accent shrink-0 mt-0.5" />
               <span>Dasmesh Nagar, Gali No.12, Joura Phatak, Amritsar</span>
@@ -47,7 +47,7 @@ export default function Footer() {
         </div>
       </div>
       
-      <div className="container mt-16 border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between text-sm text-pest-light/50">
+      <div className="container mt-16 border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between text-sm text-pest-light/80">
         <p>&copy; {new Date().getFullYear()} Punjab Ecopest Control Service. All rights reserved.</p>
         <p className="mt-2 md:mt-0">Managed by: Manish Kumar Singh</p>
       </div>
