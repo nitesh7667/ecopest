@@ -14,6 +14,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Punjab Ecopest Control Service - Amritsar",
   description: "Eco-friendly pest control services for your home and business in Amritsar.",
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 
 export default function RootLayout({
@@ -23,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`h-full  scroll-smooth ${poppins.variable}`}>
-      <body className="min-h-full flex bg-green-50 flex-col font-sans">
+      <body className="min-h-full flex bg-green-50 flex-col font-sans" suppressHydrationWarning>
         <Header />
         <main className="flex-1 flex flex-col">
           {children}
