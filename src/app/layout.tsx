@@ -12,10 +12,10 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Punjab Ecopest Control Service - Amritsar",
+  title: "RudraShield Ecopest management- Amritsar",
   description: "Eco-friendly pest control services for your home and business in Amritsar.",
   icons: {
-    icon: "/icon.svg",
+    icon: "/fav.png",
   },
 };
 

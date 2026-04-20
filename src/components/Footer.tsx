@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container grid gap-12 md:grid-cols-4">
         <div className="md:col-span-2">
           <div className="flex gap-2 items-center mb-4">
-            <span className="font-extrabold text-2xl text-white">Punjab Ecopest</span>
+            <span className="font-extrabold text-2xl text-white">Rudra Shield Eco Pest Management</span>
           </div>
           <p className="text-sm text-pest-light/90 max-w-sm mb-6 leading-relaxed">
             Professional & eco-friendly pest control services serving Amritsar. Your safety and peace of mind are our top priorities.
@@ -17,11 +17,11 @@ export default function Footer() {
         <div>
           <h2 className="font-bold mb-6 text-white uppercase tracking-wider text-sm">Our Services</h2>
           <ul className="space-y-3 text-sm text-pest-light/90">
-            <li><Link href="#services" className="hover:text-pest-accent transition-colors">Termite Treatment</Link></li>
-            <li><Link href="#services" className="hover:text-pest-accent transition-colors">Rodent Control</Link></li>
-            <li><Link href="#services" className="hover:text-pest-accent transition-colors">General Pest Control</Link></li>
-            <li><Link href="#services" className="hover:text-pest-accent transition-colors">Fogging Services</Link></li>
-            <li><Link href="#services" className="hover:text-pest-accent transition-colors">Sanitization</Link></li>
+            <li><Link href="/services/termite-control" className="hover:text-pest-accent transition-colors">Termite Treatment</Link></li>
+            <li><Link href="/services/rodent-control" className="hover:text-pest-accent transition-colors">Rodent Control</Link></li>
+            <li><Link href="/services/general-pest-control" className="hover:text-pest-accent transition-colors">General Pest Control</Link></li>
+            <li><Link href="/services/insects-fogging" className="hover:text-pest-accent transition-colors">Fogging Services</Link></li>
+            <li><Link href="/services/sanitization" className="hover:text-pest-accent transition-colors">Sanitization</Link></li>
           </ul>
         </div>
         
@@ -34,7 +34,7 @@ export default function Footer() {
             </li>
             <li className="flex items-start gap-3">
               <Mail className="h-5 w-5 text-pest-accent shrink-0 mt-0.5" />
-              <span>manishrajput7075@gmail.com</span>
+              <span>support@rudrashieldpestmanagement.in</span>
             </li>
             <li className="flex items-start gap-3">
               <Phone className="h-5 w-5 text-pest-accent shrink-0 mt-0.5" />
@@ -48,8 +48,18 @@ export default function Footer() {
       </div>
       
       <div className="container mt-16 border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between text-sm text-pest-light/80">
-        <p>&copy; {new Date().getFullYear()} Punjab Ecopest Control Service. All rights reserved.</p>
-        <p className="mt-2 md:mt-0">Managed by: Manish Kumar Singh</p>
+        <p>&copy; {new Date().getFullYear()} Rudra Shield Eco Pest Management. All rights reserved.</p>
+        <p className="mt-2 md:mt-0">
+          Developed by{" "}
+          <a
+            href="https://www.sorabyte.in/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-pest-accent hover:underline font-semibold"
+          >
+            Sorabyte
+          </a>
+        </p>
       </div>
     </footer>
   );

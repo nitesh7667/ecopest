@@ -10,8 +10,21 @@ const fadeInUp: Variants = {
 
 export default function HeroSection() {
   return (
-    <section className="w-full bg-green-50 py-16 md:py-24 ">
-      <div className="container px-4 md:px-6 mx-auto grid md:grid-cols-2 gap-12 items-center">
+    <section className="w-full relative overflow-hidden">
+      {/* Modern Gradient Background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-slate-600 via-green-800 to-slate-700"></div>
+      
+      {/* Animated Mesh Gradient */}
+      <div className="absolute inset-0">
+        <div className="absolute top-0 -left-40 w-80 h-80 bg-green-500 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"></div>
+        <div className="absolute top-0 -right-40 w-80 h-80 bg-yellow-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
+        <div className="absolute -bottom-8 left-20 w-80 h-80 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+      </div>
+
+      {/* Grid Pattern Overlay */}
+      <div className="absolute inset-0 bg-grid-pattern opacity-10"></div>
+
+      <div className="container px-4 md:px-6 mx-auto grid md:grid-cols-2 gap-12 items-center relative z-10 py-16 md:py-24">
 
         {/* LEFT CONTENT */}
         <motion.div
@@ -24,15 +37,15 @@ export default function HeroSection() {
          
 
           {/* Heading */}
-          <h1 className="text-2xl sm:text-5xl md:text-5xl font-extrabold leading-tight text-gray-900">
+          <h1 className="text-2xl sm:text-5xl md:text-5xl font-extrabold leading-tight text-white">
             Safe & Eco-Friendly <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-green-800">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-green-300 to-blue-300">
               Pest Control Services
             </span>
           </h1>
 
           {/* Description */}
-          <p className="text-lg text-gray-700 max-w-xl">
+          <p className="text-lg text-gray-200 max-w-xl">
             Protect your home and business with certified pest control solutions.
             Fast, reliable, and completely safe for your family and environment.
           </p>
@@ -48,7 +61,7 @@ export default function HeroSection() {
 
             <a
               href="#contact"
-              className="inline-flex items-center justify-center rounded-full w-full md:w-auto max-w-[220px] md:max-w-none font-semibold border-2 border-green-700 text-green-700 active:bg-green-50 sm:border-none sm:bg-green-700 sm:text-white sm:hover:bg-green-800 sm:active:bg-green-800 h-16 sm:h-12 px-6 shadow-md transition"
+              className="inline-flex items-center justify-center rounded-full w-full md:w-auto max-w-[220px] md:max-w-none font-semibold border-2 border-yellow-300 text-yellow-300 active:bg-yellow-300 active:text-black sm:border-none sm:bg-gradient-to-r sm:from-green-400 sm:to-blue-400 sm:text-white sm:hover:from-green-500 sm:hover:to-blue-500 sm:active:from-green-600 sm:active:to-blue-600 h-16 sm:h-12 px-6 shadow-md transition"
             >
               Book Inspection
               <ArrowRight className="ml-2 h-7 w-7 -rotate-45 sm:h-5 sm:w-5 sm:rotate-0 transition-transform" />

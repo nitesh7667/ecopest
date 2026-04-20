@@ -3,21 +3,20 @@ import { Bug, Phone } from "lucide-react";
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-[#7373734b] bg-white  border-border/40   shadow-sm">
+    <header className="sticky top-0 z-50 w-full border-b border-[#7373734b] bg-white  border-border/40   shadow-sm ">
       <div className="container flex h-20 items-center justify-between">
         <div className="flex gap-2 items-center">
-          <Bug className="h-8 w-8 text-pest-green" />
-          <div className="flex flex-col">
-            <span className="font-extrabold text-xl text-pest-dark leading-none">Punjab Ecopest</span>
-            <span className="text-[10px] font-semibold text-pest-green uppercase tracking-wider mt-1">Control Service</span>
-          </div>
+          <Link href="/" className="flex items-center">
+            <img src="/logo.png" alt="Punjab Ecopest" className="h-17 w-auto" />
+          </Link>
         </div>
         
         <nav className="hidden lg:flex gap-8">
           <Link href="/" className="text-sm font-semibold transition-colors hover:text-pest-green text-foreground/80">Home</Link>
-          <Link href="#services" className="text-sm font-semibold transition-colors hover:text-pest-green text-foreground/80">Services</Link>
-          <Link href="#process" className="text-sm font-semibold transition-colors hover:text-pest-green text-foreground/80">Our Process</Link>
-          <Link href="#contact" className="text-sm font-semibold transition-colors hover:text-pest-green text-foreground/80">Contact</Link>
+          <Link href="/services" className="text-sm font-semibold transition-colors hover:text-pest-green text-foreground/80">Services</Link>
+          <Link href="/about" className="text-sm font-semibold transition-colors hover:text-pest-green text-foreground/80">About</Link>
+          <Link href="/process" className="text-sm font-semibold transition-colors hover:text-pest-green text-foreground/80">Our Process</Link>
+          <Link href="/contact" className="text-sm font-semibold transition-colors hover:text-pest-green text-foreground/80">Contact</Link>
         </nav>
 
         <div className="flex items-center gap-4">
