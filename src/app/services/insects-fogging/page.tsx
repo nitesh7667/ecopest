@@ -1,8 +1,8 @@
 import ServiceDetailPage from "@/components/ServiceDetailPage";
 
 export const metadata = {
-  title: "Product Insects & Fogging - Punjab Ecopest Control",
-  description: "Intensive fogging services to eliminate flying insects and protect stored products from infestations.",
+  title: "Product Insects & Fogging",
+  description: "Intensive thermal and cold fogging services to eliminate flying insects and protect stored products from infestations in Amritsar.",
 };
 
 export default function InsectsFoggingPage() {

@@ -1,8 +1,8 @@
 import ServiceDetailPage from "@/components/ServiceDetailPage";
 
 export const metadata = {
-  title: "Anti Termite Treatment - Punjab Ecopest Control",
-  description: "Professional anti-termite treatment for pre and post construction. Long-lasting barriers against destructive termite colonies.",
+  title: "Anti Termite Treatment",
+  description: "Professional anti-termite treatment for pre and post construction. Long-lasting barriers against destructive termite colonies in Amritsar.",
 };
 
 export default function TermiteControlPage() {

@@ -1,8 +1,8 @@
 import ServiceDetailPage from "@/components/ServiceDetailPage";
 
 export const metadata = {
-  title: "Sanitization & Disinfection - Punjab Ecopest Control",
-  description: "Comprehensive microbial protection for homes and businesses. Keep your spaces hygienic and completely safe.",
+  title: "Sanitization & Disinfection",
+  description: "Comprehensive microbial protection for homes and businesses. Keep your spaces hygienic and completely safe in Amritsar.",
 };
 
 export default function SanitizationPage() {

@@ -1,8 +1,8 @@
 import ServicesSection from "@/components/sections/ServicesSection";
 
 export const metadata = {
-  title: "Services - Punjab Ecopest Control",
-  description: "Explore our eco-friendly pest control services",
+  title: "Our Services",
+  description: "Explore our wide range of eco-friendly, organic pest control and sanitization services at Rudra Shield Eco Pest Management.",
 };
 
 export default function ServicesPage() {
