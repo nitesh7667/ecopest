@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="border-t bg-pest-dark text-pest-light pt-16 pb-8">
-      <div className="container grid gap-12 md:grid-cols-4">
-        <div className="md:col-span-2">
+      <div className="container grid gap-12 lg:grid-cols-5 md:grid-cols-2">
+        <div className="lg:col-span-2 md:col-span-2">
           <div className="flex gap-2 items-center mb-4">
             <span className="font-extrabold text-2xl text-white">Rudra Shield Eco Pest Management</span>
           </div>
@@ -44,6 +44,22 @@ export default function Footer() {
               </div>
             </li>
           </ul>
+        </div>
+
+        <div>
+          <h2 className="font-bold mb-6 text-white uppercase tracking-wider text-sm">Our Location</h2>
+          <div className="rounded-lg overflow-hidden h-40 bg-white/5 border border-white/10">
+            <iframe 
+              src="https://maps.google.com/maps?q=31.6331523,74.8874788&z=17&output=embed" 
+              width="100%" 
+              height="100%" 
+              style={{ border: 0 }} 
+              allowFullScreen={false} 
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Google Maps Location"
+            ></iframe>
+          </div>
         </div>
       </div>
       
