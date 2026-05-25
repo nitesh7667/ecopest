@@ -14,16 +14,31 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   metadataBase: new URL("https://rudrashieldpestmanagement.in"),
   title: {
-    default: "Rudra Shield Eco Pest Management - Amritsar",
-    template: "%s - Rudra Shield Eco Pest Management",
+    default: "Rudra Shield Eco Pest Management | Best Pest Control in Punjab & Amritsar",
+    template: "%s | Rudra Shield Eco Pest Management Punjab",
   },
-  description: "Eco-friendly pest control services for your home and business in Amritsar. Safe, reliable, and organic solutions.",
+  description: "Rudra Shield Eco Pest Management offers professional, safe, and eco-friendly pest control services in Amritsar, Jalandhar, Ludhiana, and all over Punjab.",
   alternates: {
     canonical: "./",
   },
+  keywords: [
+    "ecopest",
+    "eco pest control Punjab",
+    "pest control Amritsar",
+    "pest control services in Punjab",
+    "best pest control in Jalandhar",
+    "organic pest control Ludhiana",
+    "termite treatment Punjab",
+    "rodent control Amritsar",
+    "eco friendly pest management Punjab",
+    "bug control Punjab",
+    "sanitization services Amritsar",
+    "anti termite treatment Punjab",
+    "professional pest control Punjab"
+  ],
   openGraph: {
-    title: "Rudra Shield Eco Pest Management - Amritsar",
-    description: "Eco-friendly pest control services for your home and business in Amritsar.",
+    title: "Rudra Shield Eco Pest Management | Best Pest Control in Punjab & Amritsar",
+    description: "Safe, organic, and eco-friendly pest control services serving homes and businesses across Amritsar, Jalandhar, Ludhiana, and all over Punjab.",
     url: "https://rudrashieldpestmanagement.in",
     siteName: "Rudra Shield Eco Pest Management",
     locale: "en_IN",
@@ -39,8 +54,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rudra Shield Eco Pest Management - Amritsar",
-    description: "Eco-friendly pest control services for your home and business in Amritsar.",
+    title: "Rudra Shield Eco Pest Management | Best Pest Control in Punjab & Amritsar",
+    description: "Safe, organic, and eco-friendly pest control services serving homes and businesses across Punjab.",
     images: ["/logo.png"],
   },
   robots: {
