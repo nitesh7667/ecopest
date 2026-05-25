@@ -7,7 +7,7 @@ export default function Header() {
       <div className="container flex h-20 items-center justify-between">
         <div className="flex gap-2 items-center">
           <Link href="/" className="flex items-center">
-            <img src="/logo.png" alt="Punjab Ecopest" className="h-17 w-auto" />
+            <img src="/logo.png" alt="Rudra Shield Eco Pest Management" className="h-17 w-auto" />
           </Link>
         </div>
         

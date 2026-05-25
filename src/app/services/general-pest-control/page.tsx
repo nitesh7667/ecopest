@@ -1,8 +1,8 @@
 import ServiceDetailPage from "@/components/ServiceDetailPage";
 
 export const metadata = {
-  title: "General Pest Control - Punjab Ecopest Control",
-  description: "Comprehensive residential and commercial pest control for mosquitoes, cockroaches, ants, houseflies, and more.",
+  title: "General Pest Control",
+  description: "Comprehensive residential and commercial pest control for mosquitoes, cockroaches, ants, houseflies, and more in Amritsar.",
 };
 
 export default function GeneralPestControlPage() {

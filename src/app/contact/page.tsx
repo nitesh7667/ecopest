@@ -1,8 +1,8 @@
 import ContactSection from "@/components/sections/ContactSection";
 
 export const metadata = {
-  title: "Contact Us - Punjab Ecopest Control",
-  description: "Get in touch with Punjab Ecopest Control for your pest control needs",
+  title: "Contact Us",
+  description: "Get in touch with Rudra Shield Eco Pest Management for professional and eco-friendly pest control services in Amritsar.",
 };
 
 export default function ContactPage() {

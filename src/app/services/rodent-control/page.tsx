@@ -1,8 +1,8 @@
 import ServiceDetailPage from "@/components/ServiceDetailPage";
 
 export const metadata = {
-  title: "Rodent Control Treatment - Punjab Ecopest Control",
-  description: "Advanced baiting and trapping solutions to eradicate mice and rats from your home or business.",
+  title: "Rodent Control Treatment",
+  description: "Advanced baiting and trapping solutions to eradicate mice and rats from your home or business in Amritsar.",
 };
 
 export default function RodentControlPage() {

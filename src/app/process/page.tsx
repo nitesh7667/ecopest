@@ -1,8 +1,8 @@
 import ProcessSection from "@/components/sections/ProcessSection";
 
 export const metadata = {
-  title: "Our Process - Punjab Ecopest Control",
-  description: "Understand our step-by-step pest control process",
+  title: "Our Process",
+  description: "Understand our step-by-step eco-friendly pest control and management process at Rudra Shield Eco Pest Management.",
 };
 
 export default function ProcessPage() {

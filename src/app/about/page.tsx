@@ -1,8 +1,8 @@
 import WhyChooseUsSection from "@/components/sections/WhyChooseUsSection";
 
 export const metadata = {
-  title: "About Us - Punjab Ecopest Control",
-  description: "Learn why choose Punjab Ecopest Control for your pest management needs",
+  title: "About Us",
+  description: "Learn why to choose Rudra Shield Eco Pest Management for your pest control and sanitization needs in Amritsar.",
 };
 
 export default function AboutPage() {
