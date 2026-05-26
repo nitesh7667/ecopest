@@ -30,17 +30,33 @@ export default function Footer() {
           <ul className="space-y-4 text-sm text-pest-light/90">
             <li className="flex items-start gap-3">
               <MapPin className="h-5 w-5 text-pest-accent shrink-0 mt-0.5" />
-              <span>Dasmesh Nagar, Gali No.12, Joura Phatak, Amritsar</span>
+              <a 
+                href="https://maps.google.com/?q=31.6331523,74.8874788" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="hover:text-pest-accent transition-colors"
+              >
+                Dasmesh Nagar, Gali No.12, Joura Phatak, Amritsar
+              </a>
             </li>
             <li className="flex items-start gap-3">
               <Mail className="h-5 w-5 text-pest-accent shrink-0 mt-0.5" />
-              <span>support@rudrashieldpestmanagement.in</span>
+              <a 
+                href="mailto:support@rudrashieldpestmanagement.in" 
+                className="hover:text-pest-accent transition-colors break-all"
+              >
+                support@rudrashieldpestmanagement.in
+              </a>
             </li>
             <li className="flex items-start gap-3">
               <Phone className="h-5 w-5 text-pest-accent shrink-0 mt-0.5" />
               <div className="flex flex-col">
-                <span>+91 97985-63175</span>
-                <span>+91 73208-48351</span>
+                <a href="tel:+919798563175" className="hover:text-pest-accent transition-colors">
+                  +91 97985-63175
+                </a>
+                <a href="tel:+917320848351" className="hover:text-pest-accent transition-colors">
+                  +91 73208-48351
+                </a>
               </div>
             </li>
           </ul>
