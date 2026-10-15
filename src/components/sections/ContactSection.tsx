@@ -237,9 +237,9 @@ export default function ContactSection() {
                     </div>
 
                     <div className="text-foreground/70 font-medium">
-                      Dasmesh Nagar, Gali No.12
+                      sarifpura, rani bazar,
                       <br />
-                      Joura Phatak, Amritsar
+                      near Bus stand, amritsar, punjab
                     </div>
                   </div>
                 </li>

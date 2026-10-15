@@ -36,7 +36,7 @@ export default function Footer() {
                 rel="noopener noreferrer" 
                 className="hover:text-pest-accent transition-colors"
               >
-                Dasmesh Nagar, Gali No.12, Joura Phatak, Amritsar
+                 sarifpura, rani bazar, near Bus stand, amritsar, punjab
               </a>
             </li>
             <li className="flex items-start gap-3">
